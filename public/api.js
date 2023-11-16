@@ -22,4 +22,7 @@ async function getData(result){
     
     }
 
+
+    
+
 }

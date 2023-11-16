@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>WeatherApp</title>
 </head>
 <body>
+    <div class="app-container">
+        <div class="search-input-text">
+            <i class="fa-solid fa-location-dot fa-lg" style="color: #ffffff;"></i>
+            <input type="text" placeholder="Search by zipcode or City">
+            <button> <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></i></button>
+        </div>
+
+        <div class="weather">
+            <div class="weather-info">
+                <img class="weather-img" src="" alt="">
+                <h1 class="degree">-1</h1>
+                <p class="">Light Snow</p>
+            </div>
+    
+            <div class="weather-insight">
+                <div class="humidity">
+                    <i class="fa-solid fa-water fa-2xl" style="color: #ffffff;"></i>
+                   <div>
+                    <p>98%</p>
+                    <p>humidity</p>
+                   </div>
+                </div>
+                <div class="wind-speed">
+                    <i class="fa-solid fa-wind fa-2xl" style="color: #ffffff;"></i>               <div>
+                    <p>1km/h</p>
+                    <p>Wind speed</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+
+
+
  
     
 <script src="api.js"></script>
