@@ -97,7 +97,7 @@ async function getData(){
                 <i class="fa-solid fa-wind fa-2xl" style="color: #ffffff;"></i>               <div>
                 <p>${data.current.wind_mph}mph</p>
                 <p>Wind speed</p>
-            </div>2
+            </div>
             </div>
          </div>
         `
